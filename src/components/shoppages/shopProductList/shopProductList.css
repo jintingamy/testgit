@@ -1,0 +1,35 @@
+.shopProductList {
+  width: 80vw;
+  margin: 0px auto;
+  margin-top: 180px;
+}
+
+.shopproductDisplay {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.showmoreitems {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #2a2a2a;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+.showmoreitems:hover {
+  background-color: rgba(42, 42, 42, 0.9);
+  cursor: pointer;
+}
+
+.showmoreitemshidden {
+  display: none;
+}
